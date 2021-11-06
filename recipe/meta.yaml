@@ -10,7 +10,7 @@ source:
   sha256: e3c587c5ff24441a092fe2f3bc1dc03667bf126558f437161e779bfbcce48022
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]
   run_exports:
     - {{ pin_subpackage('xdrfile', min_pin='x.x.x', max_pin='x.x.x') }}
